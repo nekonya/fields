@@ -18,3 +18,6 @@ True
 
 >>> fields.namedtuple('B', ['a', 'b', 'c'])
 <class 'fields.B'>
+
+>>> fields.dict_to_namedtuple('animal',{'neko':4, 'kame':{'risu':2}, 'kuma':5})
+animal(neko=4, kuma=5, kame={'risu': 2})
