@@ -6,5 +6,4 @@ eggs
 *.egg-info
 develop-eggs
 build
-dist
 .installed.cfg
